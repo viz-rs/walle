@@ -1,0 +1,14 @@
+[package]
+name = "walle"
+authors.workspace = true
+description.workspace = true
+documentation.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+clap = { version = "4.4.6", features = ["cargo", "derive"] }
+toml.workspace = true

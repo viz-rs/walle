@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+  "walle",
+]
+
+[workspace.package]
+authors = ["Fangdun Tsai <cfddream@gmail.com>"]
+description = "A disk space recovery tool!"
+documentation = "https://docs.rs/viz"
+edition = "2021"
+homepage = "https://github.com/viz-rs/walle"
+license = "MIT"
+repository = "https://github.com/viz-rs/walle"
+version = "0.1.0-beta.1"
+
+[workspace.dependencies]
+toml = "0.8.2"
