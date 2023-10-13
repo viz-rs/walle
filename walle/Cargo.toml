@@ -10,5 +10,7 @@ repository.workspace = true
 version.workspace = true
 
 [dependencies]
-clap = { version = "4.4.6", features = ["cargo", "derive"] }
+anyhow.workspace = true
 toml.workspace = true
+
+clap = { version = "4.4.6", features = ["derive"] }
