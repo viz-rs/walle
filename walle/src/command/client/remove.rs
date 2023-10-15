@@ -6,7 +6,7 @@ use clap::Parser;
 pub struct Cmd {}
 
 impl Cmd {
-    pub fn run() -> Result<()> {
+    pub fn run(self) -> Result<()> {
         Ok(())
     }
 }

@@ -20,6 +20,10 @@ pub enum Cmd {
 
 impl Cmd {
     pub fn run(self) -> Result<()> {
-        Ok(())
+        match self {
+            Self::Add(cmd) => cmd.run(),
+            Self::Remove(cmd) => cmd.run(),
+            Self::List(cmd) => cmd.run(),
+        }
     }
 }
