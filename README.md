@@ -2,7 +2,7 @@
 
 A disk space recovery tool.
 
-Helps us to regularly clean up items that are not frequently accessed, 
+Helps us to regularly clean up projects that are not frequently accessed, 
 automatically cleans up caches generated during development, etc.
 For example, `node_modules` in nodejs, `target` in rust, `vender` in php. 
 
