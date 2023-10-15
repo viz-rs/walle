@@ -1,9 +1,7 @@
 use anyhow::Result;
 use clap::Parser;
 
-mod command;
-
-use command::WalleCmd;
+use walle::command::WalleCmd;
 
 #[derive(Parser)]
 #[clap(author, about, version)]
