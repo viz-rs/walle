@@ -4,28 +4,20 @@ A disk space recovery tool.
 
 Helps us to regularly clean up projects that are not frequently accessed, 
 automatically cleans up caches generated during development, etc.
-For example, `node_modules` in nodejs, `target` in rust, `vender` in php. 
+For examples, `node_modules` in nodejs, `target` in rust, `vender` in php. 
+
+Of course, you can also choose to delete the project or package it for backup.
 
 ## Getting Started
 
 * Scan a project and add to tracking list
 
 ```
-walle add .
+walle project scan
+walle project scan --level 2
+walle project scan --level 2 --path .
+walle project add --
 ```
-
-* Remove a project from tracking list
-
-```
-walle remove --name [project]
-```
-
-* Show tracking list
-
-```
-walle list
-```
-
 ...
 
 ## License
